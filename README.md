@@ -1,5 +1,5 @@
 # type_id
-minimal code and runtime implementation of unique id per type capable of storing additional info
+*minimal code and runtime implementation of unique id per type capable of storing additional info*
 
 For type erasure we need to store information about the erased typed in some way. C++11 does give us typeid operator which should fulfill this need but it is lacking in two key aspects:
 1) Its impossible to modify the implementation to store extra data (such as sizeof type, alignemnt, or basic type_traits like classififcation)
